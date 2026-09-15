@@ -162,10 +162,8 @@ F_S(12,30,0.0deg)_G(45,18,90.0deg)_astar_visited.gif
 
 ![演示1](gifs/demo1.gif)
 ![演示2](gifs/demo2.gif)
-![演示2](gifs/demo3.gif)
-![演示2](gifs/demo4.gif)
-![演示2](gifs/demo5.gif)
-![演示2](gifs/demo6.gif)
+![演示3](gifs/demo3.gif)
+
 ---
 
 ## 📄 License
