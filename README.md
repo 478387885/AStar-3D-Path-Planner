@@ -158,14 +158,14 @@ F_S(12,30,0.0deg)_G(45,18,90.0deg)_astar_visited.gif
 
 ---
 
-## 🔧 扩展建议
+## 🎬 演示
 
-- **自定义机器人形状**：在 `SHAPES` 字典中新增 ASCII 图案即可；
-- **更换碰撞策略**：修改 `collides()` 与 `swept_safe_move()`；
-- **更高维度状态**：可在 `NB` 中扩展动作集合，加入速度、曲率等维度；
-- **接入真实地图**：将 `MAP` 替换为来自 SLAM / 栅格地图的数据；
-- **替换为其他规划器**：将 `astar()` 替换为 D*、Hybrid A*、RRT* 等。
-
+![演示1](gifs/demo1.gif)
+![演示2](gifs/demo2.gif)
+![演示2](gifs/demo3.gif)
+![演示2](gifs/demo4.gif)
+![演示2](gifs/demo5.gif)
+![演示2](gifs/demo6.gif)
 ---
 
 ## 📄 License
