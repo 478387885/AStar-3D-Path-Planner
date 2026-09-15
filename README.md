@@ -57,7 +57,9 @@ pip install numpy matplotlib pillow
 
 直接运行：
 
-`python Complete_AStar_Path_Planner_Visited_Grid.py`
+```bash
+python Complete_AStar_Path_Planner_Visited_Grid.py
+```
 
 程序会：
 
