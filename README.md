@@ -29,11 +29,12 @@
 ---
 
 ## 📁 目录结构
-├── Complete_AStar_Path_Planner_Visited_Grid.py # 主程序
-
-├── gifs/ # 自动生成的 GIF 输出目录
-
+```
+.
+├── Complete_AStar_Path_Planner_Visited_Grid.py       # 主程序
+├── gifs/       # 自动生成的 GIF 输出目录
 └── README.md
+```
 
 ---
 
