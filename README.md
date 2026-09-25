@@ -81,7 +81,7 @@ python Complete_AStar_Path_Planner_Visited_Grid.py
 | `YAW_DIV` | 朝向离散份数 | `16` |
 | `CLEARANCE_CELLS` | 障碍膨胀的安全距离（格） | `1.0` |
 | `TESTS` | 随机测试轮数 | `6` |
-| `ROBOT_SHAPE` | 机器人形状，可选 `"T" / "A" / "F"` | `"F"` |
+| `ROBOT_SHAPE` | 机器人形状 | `"F"` |
 | `START_YAW_DEG` | 起点朝向（度） | `0.0` |
 | `GOAL_YAW_DEG` | 终点朝向（度） | `90.0` |
 | `VISITED_MODE` | 走过的栅格标记模式，`"center"` / `"footprint"` | `"center"` |
@@ -121,7 +121,7 @@ h = sqrt(2) * min(dx, dy) + |dx - dy|
 
 ### 4. 扫掠碰撞检测
 
-对相邻两个状态做线位移 + 角位移同步插值，逐步检测是否碰撞，避免“跨越”障碍。步长自适应机器人尺寸。
+对相邻两个状态做线位移 + 角位移同步插值，逐步检测是否碰撞，避免“跨越”障碍。
 
 ### 5. 碰撞判据
 
@@ -134,23 +134,13 @@ h = sqrt(2) * min(dx, dy) + |dx - dy|
 ## 🖼️ 可视化说明
 
 - **灰色**：障碍栅格；
-- **浅蓝半透明**：机器人走过的栅格（可切换 `center` / `footprint` 模式）；
+- **浅蓝半透明**：机器人走过的栅格；
 - **蓝色虚线**：A* 中心轨迹；
 - **绿色星号 + 绿色方块**：起点及其 footprint；
 - **红色 X + 红色方块**：终点及其 footprint；
 - **橙色圆点 + 橙色方块**：机器人当前位置与当前 footprint。
 
----
 
-## 📦 输出示例
-
-运行后会在 `./gifs/` 下生成类似文件名：
-
-```
-F_S(12,30,0.0deg)_G(45,18,90.0deg)_astar_visited.gif
-```
-
-文件名中包含机器人形状、起点、终点及朝向信息，便于区分不同实验。
 
 ---
 
@@ -172,6 +162,6 @@ MIT License
 
 - A* 算法：Hart, P. E., Nilsson, N. J., & Raphael, B. (1968)
 - Octile 启发函数：常见 8 邻域栅格启发式
-- 可视化：Matplotlib Animation + Pillow
+- 内容来源已授权License合规 Github账号： [@fanzexuan](https://github.com/fanzexuan)
 
 ---
