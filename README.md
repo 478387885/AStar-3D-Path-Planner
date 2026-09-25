@@ -162,6 +162,6 @@ MIT License
 
 - A* 算法：Hart, P. E., Nilsson, N. J., & Raphael, B. (1968)
 - Octile 启发函数：常见 8 邻域栅格启发式
-- 内容来源已授权License合规 Github账号： [@fanzexuan](https://github.com/fanzexuan)
+- 内容来源已授权License合规,代码不正确，需要请联系 Github账号： [@fanzexuan](https://github.com/fanzexuan)
 
 ---
